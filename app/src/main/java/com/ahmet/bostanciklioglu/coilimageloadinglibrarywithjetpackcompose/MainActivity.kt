@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 fun CoilImage() {
     Box(modifier = Modifier.size(150.dp), contentAlignment = Alignment.Center) {
 
-        val url = "Paste here your special Image URL"
+        val url = "Paste here your image url"
         val painter =
             rememberAsyncImagePainter(
                 ImageRequest.Builder(LocalContext.current)
